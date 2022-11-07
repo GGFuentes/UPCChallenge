@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c4f7d63a74574a2e80eb94c54e0f8e82" Name="Diagram1">
+        <EntityTypeShape EntityType="DBMatriculaModel.Alumno" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMatriculaModel.Cursos" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMatriculaModel.DetalleSolicitud" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBMatriculaModel.Solicitud" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DBMatriculaModel.FK__Solicitud__IdAlu__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMatriculaModel.FK__DetalleSo__IdCur__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="DBMatriculaModel.FK__DetalleSo__IdSol__403A8C7D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
